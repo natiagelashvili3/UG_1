@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #424242;
+    height: 100px;
+}
+
+header .logo {
+    display: inline-block;
+}
+header img{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+header .navigation{
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+header .navigation a{
+    font-size: 18px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+header .navigation a.active{
+    color: #409eff;
+}
+
+header .navigation a:hover{
+    color: #409eff;
+}
+
+.page-title{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.page-title span{
+    color: red;
+}
