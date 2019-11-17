@@ -45,3 +45,55 @@ header .navigation a:hover{
 .page-title span{
     color: red;
 }
+
+.hidden-block{
+    display: none;
+}
+
+.toggle-block{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.toggle-block button{
+    padding: 5px 10px;
+    background: gray;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.hidden-block{
+    margin-top: 20px;
+    color: #002bff;
+}
+
+
+.list{
+    margin-top: 20px;
+}
+.list .news-item{
+    margin: 10px 0;
+    text-align: center;
+}
+.list .news-item div{
+    display: inline-block;
+}
+.list .news-item .content{
+    width: 200px;
+}
+.list .news-item .news-content{
+    border: 1px solid gray;
+    padding: 5px;
+}
+.list .news-item button{
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.my-div{
+    background: red;
+    padding: 40px;
+    text-align: center;
+}
